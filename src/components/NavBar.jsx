@@ -8,7 +8,7 @@ export default function NavBar() {
                     ShopHub</Link>
                 <div className="navbar-links">
                     <Link to="/" className='navbar-link' >
-                    Home
+                        Home
                     </Link>
                     <Link to="/checkout" className='navbar-link'>
                         Cart
