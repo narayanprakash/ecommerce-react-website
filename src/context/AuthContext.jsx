@@ -41,3 +41,6 @@ export default function AuthProvider({ children }) {
         </AuthContext.Provider>
     )
 }
+export function useAuth() {
+    return useContext(AuthContext);
+}
